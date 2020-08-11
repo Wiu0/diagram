@@ -1,6 +1,6 @@
-<mxfile modified="2020-08-11T14:04:01.585Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="IcC30DLtAHhiaH7iHDxE" version="13.6.2" type="github">
+<mxfile modified="2020-08-11T14:55:19.982Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="X1qwnmqgyQiEC1AjcIFT" version="13.6.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1660" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
           <mxGeometry x="730" y="462" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-41" value="External access" style="shape=mxgraph.ibm.box;prType=public;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=3;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="790" y="210" width="190" height="290" as="geometry" />
+          <mxGeometry x="790" y="210" width="140" height="290" as="geometry" />
         </mxCell>
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-40" value="POS" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.pos;fillColor=#005073;strokeColor=none;fontSize=10;" vertex="1" parent="J2uJuzHB50UTJ_rWJ9Sv-41">
           <mxGeometry x="21" y="55" width="48.64" height="38" as="geometry" />
@@ -201,9 +201,6 @@
           <mxGeometry x="80" y="35" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="J2uJuzHB50UTJ_rWJ9Sv-40" target="J2uJuzHB50UTJ_rWJ9Sv-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="J2uJuzHB50UTJ_rWJ9Sv-54" target="J2uJuzHB50UTJ_rWJ9Sv-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/anycolor-common-type-files-pack/512/log_anycolor-128.png;fontSize=10;" vertex="1" parent="1">
