@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-12T22:00:19.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="27ruP_icEuXBSiifXkcG" version="13.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-12T22:11:08.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="afEIW2HK1nWmJ6OnDBN4" version="13.6.2" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="DER">
     <mxGraphModel dx="854" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="RfvmIdjkabR53NWstXG5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="W4LlauTfSX9rmrrIxcwp-1" source="RfvmIdjkabR53NWstXG5-1" target="RfvmIdjkabR53NWstXG5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RfvmIdjkabR53NWstXG5-1" value="Mapper resulted data &lt;br&gt;from query&amp;nbsp;to &amp;nbsp;dto TenantDailyMovCliDTO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="W4LlauTfSX9rmrrIxcwp-1">
+        <mxCell id="RfvmIdjkabR53NWstXG5-1" value="Mapper resulted data &lt;br&gt;from query&amp;nbsp;to &amp;nbsp;dto BranchDailyMovDTO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="W4LlauTfSX9rmrrIxcwp-1">
           <mxGeometry x="495" y="350" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RfvmIdjkabR53NWstXG5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="W4LlauTfSX9rmrrIxcwp-1" source="RfvmIdjkabR53NWstXG5-2" target="RfvmIdjkabR53NWstXG5-1">
@@ -126,7 +126,7 @@
         <mxCell id="kGH_8t6V3mvA3QmZx_XM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="W4LlauTfSX9rmrrIxcwp-1" source="RfvmIdjkabR53NWstXG5-5" target="kGH_8t6V3mvA3QmZx_XM-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RfvmIdjkabR53NWstXG5-5" value="Send data to API vm-metrics-api" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="W4LlauTfSX9rmrrIxcwp-1">
+        <mxCell id="RfvmIdjkabR53NWstXG5-5" value="Send data ZIP to API &lt;br&gt;vm-metrics-api" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="W4LlauTfSX9rmrrIxcwp-1">
           <mxGeometry x="507" y="479" width="176" height="51" as="geometry" />
         </mxCell>
         <mxCell id="RfvmIdjkabR53NWstXG5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="W4LlauTfSX9rmrrIxcwp-1" source="RfvmIdjkabR53NWstXG5-5" target="RfvmIdjkabR53NWstXG5-5">
