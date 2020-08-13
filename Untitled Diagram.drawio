@@ -1,6 +1,6 @@
-<mxfile modified="2020-08-13T11:16:37.755Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="6UFN4xzigB6vfEPqCzDV" version="13.6.2" type="github">
+<mxfile modified="2020-08-13T16:45:13.176Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="2tew2FHumWykMQtDqrUl" version="13.6.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="api-flux">
-    <mxGraphModel dx="1186" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,9 +197,6 @@
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-40" value="POS" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.pos;fillColor=#005073;strokeColor=none;fontSize=10;" parent="J2uJuzHB50UTJ_rWJ9Sv-41" vertex="1">
           <mxGeometry x="21" y="55" width="48.64" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-43" value="&lt;span style=&quot;font-size: 14px&quot;&gt;9&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=0;" parent="J2uJuzHB50UTJ_rWJ9Sv-41" vertex="1">
-          <mxGeometry x="80" y="35" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" parent="1" source="J2uJuzHB50UTJ_rWJ9Sv-40" target="J2uJuzHB50UTJ_rWJ9Sv-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -208,6 +205,42 @@
         </mxCell>
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-67" value="&lt;b&gt;Postgres instance&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix&amp;nbsp;Database.&amp;nbsp;It contains vm_pre_venda and vm_extsale databases.&lt;br&gt;&lt;b&gt;vm_pre_venda&lt;/b&gt;: Database responsible for managements tables at presale process.&lt;br&gt;&lt;b&gt;vm_extsale:&amp;nbsp;&lt;/b&gt;Database responsible for managements configuration data at &lt;b&gt;vm-extsale-api&lt;/b&gt;.&lt;b&gt;&lt;br&gt;&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1176" y="467.75" width="450" height="105.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-1" value="Visual Mix architecture - Visual Store Service" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="432" y="640" width="340" height="158.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Local_Network_Gateways.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="567" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-3" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="576.25" y="540" width="22.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-4" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="576.25" y="615" width="22.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-8" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Docker Instance" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="680" width="176" height="110.75" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-6" value="ELK Stack" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.monitor_running_apps" vertex="1" parent="qsztV1aWT4bm1WWWcHLa-8">
+          <mxGeometry x="89.15924491771538" y="51.70731707317073" width="42.25556631171345" height="32.9593417231365" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="qsztV1aWT4bm1WWWcHLa-8">
+          <mxGeometry x="2.248925459825756" width="42.25556631171345" height="34.64956437560503" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-18" value="&lt;span style=&quot;font-size: 14px&quot;&gt;9&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=0;" vertex="1" parent="qsztV1aWT4bm1WWWcHLa-8">
+          <mxGeometry x="137" y="64.67000000000007" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-11" value="Visual Mix Systems" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="680" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-14" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.connected" vertex="1" parent="qsztV1aWT4bm1WWWcHLa-11">
+          <mxGeometry x="30" y="44.65" width="43.06" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-16" value="9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1124" y="640" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qsztV1aWT4bm1WWWcHLa-17" value="&lt;b&gt;ELK Stack&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Stack composed by Elasticsearch, Logstash and Kibana. It is responsible for manager the logs from&amp;nbsp;&lt;span style=&quot;color: rgb(36 , 136 , 20) ; font-size: 12px&quot;&gt;Visual Mix architecture - Local&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1174.5" y="641.5" width="449" height="55.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
