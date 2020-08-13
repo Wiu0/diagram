@@ -1,6 +1,6 @@
-<mxfile modified="2020-08-13T17:05:26.929Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="frcP1WfmGoEy1AZGmsNU" version="13.6.2" type="github">
+<mxfile modified="2020-08-13T22:14:43.156Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="KIymsWPGD5GjS76Rjaut" version="13.6.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1351" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,9 +124,6 @@
         <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-41" value="External access" style="shape=mxgraph.ibm.box;prType=public;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=3;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1997.5" y="230" width="140" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="J2uJuzHB50UTJ_rWJ9Sv-43" value="&lt;span style=&quot;font-size: 14px&quot;&gt;9&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;arcSize=0;" parent="J2uJuzHB50UTJ_rWJ9Sv-41" vertex="1">
-          <mxGeometry x="80" y="35" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="e6rWz-Rmy9RiweGdKCaX-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="J2uJuzHB50UTJ_rWJ9Sv-41">
           <mxGeometry x="49.75" y="74.5" width="40.5" height="63" as="geometry" />
         </mxCell>
@@ -143,43 +140,43 @@
           <mxGeometry x="2401.5" y="216" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="9gZsiQix6CurxSerb5Fo-22" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2403" y="315" width="40" height="38" as="geometry" />
+          <mxGeometry x="2403" y="275" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="9gZsiQix6CurxSerb5Fo-23" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2401.5" y="376.5" width="40" height="38" as="geometry" />
+          <mxGeometry x="2402.5" y="331.5" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="9gZsiQix6CurxSerb5Fo-24" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2403" y="448" width="40" height="38" as="geometry" />
+          <mxGeometry x="2403" y="382.5" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="9gZsiQix6CurxSerb5Fo-25" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2403" y="508" width="40" height="38" as="geometry" />
+          <mxGeometry x="2402" y="433.75" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="9gZsiQix6CurxSerb5Fo-26" value="8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2403" y="611" width="40" height="38" as="geometry" />
+          <mxGeometry x="2404" y="490" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-27" value="&lt;span&gt;Datalogic&#39;s physical&amp;nbsp;machine. It is responsible&amp;nbsp;for&amp;nbsp;registration products during a sale.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9gZsiQix6CurxSerb5Fo-27" value="&lt;b&gt;vm-auth-api &lt;/b&gt;- &amp;nbsp;Visual Mix API. It is responsible for authentication and user&#39;s management&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2453.5" y="101.5" width="449" height="46.5" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-28" value="Beta&#39;s software middleware. It is responsible for communication between Jade&#39;s machine and 3th party sale API." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9gZsiQix6CurxSerb5Fo-28" value="&lt;b&gt;vm-presale-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for manager all purchase cycle.&amp;nbsp;&lt;br&gt;Create new cart, add products, queries about carts, etc." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2453.5" y="154" width="450" height="43.5" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-29" value="&lt;b&gt;vm-jade-ws -&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for handle request from datalogic&#39;s middleware(Five elementares actions: query, commit, avoid, avoidall, resell).&amp;nbsp;This API is a middleware application: &lt;br&gt;* Query action - API requests data to &lt;b&gt;vm-products-api&lt;br&gt;&lt;/b&gt;* Commit, Avoid, Avoidall, Resell -&amp;nbsp;API requests data to&amp;nbsp;&lt;b&gt;vm-presale-api&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9gZsiQix6CurxSerb5Fo-29" value="&lt;b&gt;vm-product-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for searching product data Elasticsearch&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2453.5" y="214.5" width="450" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-30" value="&lt;span&gt;&lt;b&gt;vm-product-api&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for searching product data from produtos.db(Sqlite database sent by Visual Store Server)" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2457" y="310.5" width="450" height="49.5" as="geometry" />
+        <mxCell id="9gZsiQix6CurxSerb5Fo-30" value="&lt;span&gt;&lt;b&gt;vm-logistics-api&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible the stores&amp;nbsp;and delivery&amp;nbsp;information&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2457" y="270.5" width="450" height="49.5" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-31" value="&lt;b&gt;vm-presale-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for manager all purchase cycle. &lt;br&gt;Create new cart, add products, queries about carts, etc." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2453.5" y="376.5" width="449" height="62.5" as="geometry" />
+        <mxCell id="9gZsiQix6CurxSerb5Fo-31" value="&lt;b&gt;vm-location-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for search address by our own database, ViaCEP API and Geocoding(Google) API." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2454.5" y="331.5" width="449" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-32" value="&lt;b&gt;produtos.db&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix&amp;nbsp;SQlite.&amp;nbsp;It contains all products and attributes&amp;nbsp;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2453.5" y="449.5" width="450" height="28.5" as="geometry" />
+        <mxCell id="9gZsiQix6CurxSerb5Fo-32" value="&lt;b&gt;vm-configeasy-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for all setups to easy app works perfectly. Theme color, images, sections, etc" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2453.5" y="384" width="450" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-33" value="&lt;b&gt;vm-extsale-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for manager request from POS to perform the &amp;nbsp;purchase. This API uses the easy drive to communicate with vm-presale-api." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2453.5" y="612.5" width="449" height="55.5" as="geometry" />
+        <mxCell id="9gZsiQix6CurxSerb5Fo-33" value="&lt;b&gt;vm-pushnotifier-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It the bridges between client(app) and Firebase." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2454.5" y="491.5" width="449" height="38.5" as="geometry" />
         </mxCell>
-        <mxCell id="9gZsiQix6CurxSerb5Fo-34" value="&lt;b&gt;Postgres instance&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix&amp;nbsp;Database.&amp;nbsp;It contains vm_pre_venda and vm_extsale databases.&lt;br&gt;&lt;b&gt;vm_pre_venda&lt;/b&gt;: Database responsible for managements tables at presale process.&lt;br&gt;&lt;b&gt;vm_extsale:&amp;nbsp;&lt;/b&gt;Database responsible for managements configuration data at &lt;b&gt;vm-extsale-api&lt;/b&gt;.&lt;b&gt;&lt;br&gt;&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2453.5" y="505.75" width="450" height="105.25" as="geometry" />
+        <mxCell id="9gZsiQix6CurxSerb5Fo-34" value="&lt;b&gt;vm-epayment-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. Gateway to external payments methods. eSiftef(Software Express), AME, etc.&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2452.5" y="431.5" width="450" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="9gZsiQix6CurxSerb5Fo-50" value="Schema" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="189.5" width="70" height="240" as="geometry" />
@@ -254,6 +251,30 @@
         </mxCell>
         <mxCell id="e6rWz-Rmy9RiweGdKCaX-21" value="vm-notifier-api&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;flipH=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="1336" y="371.5" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-33" value="9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2402.5" y="540" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-34" value="&lt;b&gt;vm-stock-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It the bridges between client(app) and an external stock from ERP." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2453" y="541.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-35" value="10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2402.5" y="590" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-36" value="&lt;b&gt;vm-chat-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It&#39;s responsible for chat between customer and retail company" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2453" y="591.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-37" value="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2404" y="640" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-38" value="&lt;b&gt;vm-notifier-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It&#39;s responsible for send all e-mail messages" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2454.5" y="641.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-39" value="12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2404" y="690" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e6rWz-Rmy9RiweGdKCaX-40" value="&lt;b&gt;vm-messenger-ws&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It&#39;s responsible for all websockets requests" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2454.5" y="691.5" width="449" height="38.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
