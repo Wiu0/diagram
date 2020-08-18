@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-17T20:28:40.240Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="RIJuUEyoF8Jmg8aWUzro" version="13.6.2" type="github" pages="3">
+<mxfile modified="2020-08-18T12:50:24.672Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="ZnVD2MbNArc_nyurdGxE" version="13.6.2" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="2365" dy="1655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -309,10 +309,25 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sDBQkYz8PmR6vnkKx3aT" name="DFD - Nivel 0">
-    <mxGraphModel dx="1351" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="2rSgHIbdFwvIc0WvtrLs-0" />
         <mxCell id="2rSgHIbdFwvIc0WvtrLs-1" parent="2rSgHIbdFwvIc0WvtrLs-0" />
+        <mxCell id="2rSgHIbdFwvIc0WvtrLs-2" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="2rSgHIbdFwvIc0WvtrLs-1">
+          <mxGeometry x="506" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2rSgHIbdFwvIc0WvtrLs-4" value="GET PAYMENT&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2rSgHIbdFwvIc0WvtrLs-1">
+          <mxGeometry x="600" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2rSgHIbdFwvIc0WvtrLs-5" value="GET ALL PAYMENTS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2rSgHIbdFwvIc0WvtrLs-1">
+          <mxGeometry x="660" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2rSgHIbdFwvIc0WvtrLs-6" value="GET STEPS BY PAYMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2rSgHIbdFwvIc0WvtrLs-1">
+          <mxGeometry x="515" y="344" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2rSgHIbdFwvIc0WvtrLs-7" value="GET PAYMENT&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2rSgHIbdFwvIc0WvtrLs-1">
+          <mxGeometry x="230" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
