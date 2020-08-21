@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-21T17:58:14.415Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="dKFYx55h83c6bJstuzoc" version="13.6.2" type="github" pages="4">
+<mxfile modified="2020-08-21T17:58:55.448Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="tx3H7yT78QCSArxmxfBM" version="13.6.2" type="github" pages="5">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="1892" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -246,8 +246,8 @@
         <mxCell id="ccUjn54pVpTTam-t7Y5S-1" value="Visual Mix - vm-security-api" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
           <mxGeometry x="4" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ccUjn54pVpTTam-t7Y5S-2" value="Visual Mix - Security API - Interaction Flux" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
-          <mxGeometry x="4" y="50" width="310" height="20" as="geometry" />
+        <mxCell id="ccUjn54pVpTTam-t7Y5S-2" value="Visual Mix - Security API - Simple Interaction" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
+          <mxGeometry x="4" y="50" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ccUjn54pVpTTam-t7Y5S-3" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
           <mxGeometry y="75" width="1060" height="10" as="geometry" />
@@ -377,6 +377,232 @@
           <mxGeometry x="660" y="105" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gH_5Di6cQFd4NrzOFbnR-83" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gH_5Di6cQFd4NrzOFbnR-51">
+          <mxGeometry x="390" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Data Interaction" id="dv8SXLWe95xyXFolK0O3">
+    <mxGraphModel dx="1186" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-0" />
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-1" parent="gPIM7vl95CdgUZzT8UEo-0" />
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-2" value="Simple Interaction &amp;nbsp;- Send Photo" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-1">
+          <mxGeometry x="30" y="160" width="1080" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-3" value="" style="group" vertex="1" connectable="0" parent="gPIM7vl95CdgUZzT8UEo-2">
+          <mxGeometry x="50" y="20" width="910" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-4" value="AV receives &lt;br&gt;UUID &lt;br&gt;about process" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="820" y="60" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-5" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="825" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=20;entryX=0.5;entryY=0.5;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-4" target="gPIM7vl95CdgUZzT8UEo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; Security API&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;div&gt;&amp;nbsp; create UUID&amp;nbsp;&lt;/div&gt;&lt;div&gt;to client &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fontSize=20;align=center;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="650" y="60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-7" target="gPIM7vl95CdgUZzT8UEo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-9" value="&lt;font style=&quot;font-size: 12px&quot;&gt;request&lt;br&gt;&amp;nbsp;success&lt;/font&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="504.5" y="45" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-9" target="gPIM7vl95CdgUZzT8UEo-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="590" y="50" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-12" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="520" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-13" value="AV api calls &lt;br&gt;Security API to &lt;br&gt;send data" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="370" y="60" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-13" target="gPIM7vl95CdgUZzT8UEo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-9" target="gPIM7vl95CdgUZzT8UEo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-16" value="&lt;font style=&quot;font-size: 12px&quot;&gt;token success&lt;/font&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="180" y="45" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-16" target="gPIM7vl95CdgUZzT8UEo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="260" y="60" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-19" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="200" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-20" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry x="5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-21" value="AV api calls &lt;br&gt;Auth API to &lt;br&gt;get token" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-3">
+          <mxGeometry y="60" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-20" target="gPIM7vl95CdgUZzT8UEo-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-21" target="gPIM7vl95CdgUZzT8UEo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-3" source="gPIM7vl95CdgUZzT8UEo-16" target="gPIM7vl95CdgUZzT8UEo-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228" y="140" />
+              <mxPoint x="45" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-25" value="" style="group" vertex="1" connectable="0" parent="gPIM7vl95CdgUZzT8UEo-1">
+          <mxGeometry x="8" y="65.5" width="1060" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-26" value="Visual Mix - vm-security-api" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-25">
+          <mxGeometry x="4" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-27" value="Visual Mix - Security API - Data Interaction" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-25">
+          <mxGeometry x="4" y="50" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-28" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-25">
+          <mxGeometry y="75" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-29" value="Simple Interaction &amp;nbsp;- Get Status Process" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-1">
+          <mxGeometry x="30" y="350" width="1080" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-30" value="AV receives &lt;br&gt;UUID &lt;br&gt;about process" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="875" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-31" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="880" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=20;entryX=0.5;entryY=0.5;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-30" target="gPIM7vl95CdgUZzT8UEo-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-33" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; Security API&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;div&gt;response with JSON&lt;/div&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fontSize=20;align=center;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="705" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-33" target="gPIM7vl95CdgUZzT8UEo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-35" value="&lt;font style=&quot;font-size: 12px&quot;&gt;request&lt;br&gt;&amp;nbsp;success&lt;/font&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="559.5" y="105" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-35" target="gPIM7vl95CdgUZzT8UEo-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-37" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="645" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-38" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="575" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-39" value="AV api calls &lt;br&gt;Security API to &lt;br&gt;get data" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="425" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-39" target="gPIM7vl95CdgUZzT8UEo-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-35" target="gPIM7vl95CdgUZzT8UEo-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-42" value="&lt;font style=&quot;font-size: 12px&quot;&gt;token success&lt;/font&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="235" y="105" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-42" target="gPIM7vl95CdgUZzT8UEo-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-44" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="315" y="120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-45" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="255" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-46" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="60" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-47" value="AV api calls &lt;br&gt;Auth API to &lt;br&gt;get token" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-29">
+          <mxGeometry x="55" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-46" target="gPIM7vl95CdgUZzT8UEo-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-47" target="gPIM7vl95CdgUZzT8UEo-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-29" source="gPIM7vl95CdgUZzT8UEo-42" target="gPIM7vl95CdgUZzT8UEo-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="283" y="200" />
+              <mxPoint x="100" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-51" value="Simple Interaction &amp;nbsp;- Callback Status Process" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-1">
+          <mxGeometry x="30" y="580" width="1080" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-52" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="790" y="115" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-54" target="gPIM7vl95CdgUZzT8UEo-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-54" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; Security API&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;div&gt;send SON by callback&lt;/div&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fontSize=20;align=center;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="215" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-56" target="gPIM7vl95CdgUZzT8UEo-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-56" value="AV api calls &lt;br&gt;Security API to &lt;br&gt;get data" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="510" y="60" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-57" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="60" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-59" target="gPIM7vl95CdgUZzT8UEo-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-59" value="Security API&lt;br&gt;receives data fly&lt;br&gt;&amp;nbsp;Acesso Digital" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="55" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-57" target="gPIM7vl95CdgUZzT8UEo-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-63" target="gPIM7vl95CdgUZzT8UEo-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-63" target="gPIM7vl95CdgUZzT8UEo-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-63" value="&lt;font style=&quot;font-size: 12px&quot;&gt;AV API on&lt;/font&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="340" y="105" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-64" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="420" y="120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="gPIM7vl95CdgUZzT8UEo-51" source="gPIM7vl95CdgUZzT8UEo-66" target="gPIM7vl95CdgUZzT8UEo-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-66" value="Security API&amp;nbsp;&lt;br&gt;will not send&lt;br&gt;&amp;nbsp;again data" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
+          <mxGeometry x="660" y="105" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPIM7vl95CdgUZzT8UEo-67" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="gPIM7vl95CdgUZzT8UEo-51">
           <mxGeometry x="390" y="180" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
