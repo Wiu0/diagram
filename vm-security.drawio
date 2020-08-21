@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-21T17:23:26.672Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="LMMgZlFAW7VGKiU7JUhG" version="13.6.2" type="github" pages="4">
+<mxfile modified="2020-08-21T17:28:47.122Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="Ts-fADckGT4nmPbcIu4V" version="13.6.2" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="1892" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -294,13 +294,19 @@
           <mxGeometry y="30" width="200" height="240" as="geometry" />
         </mxCell>
         <mxCell id="hmAbQtuS3bcoNJItyeLB-3" value="user_facial_process" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="T9Nn7Okn6skYNSkeCLy9-1">
-          <mxGeometry x="490" y="220" width="240" height="270" as="geometry" />
+          <mxGeometry x="490" y="220" width="260" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="hmAbQtuS3bcoNJItyeLB-4" value="- id : long PK&#xa;- uuid_process: char(36)&#xa;- identifier: char(50)&#xa;- callback: char(300)&#xa;- photo_id : long&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=20;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="hmAbQtuS3bcoNJItyeLB-3">
-          <mxGeometry y="30" width="240" height="240" as="geometry" />
+        <mxCell id="hmAbQtuS3bcoNJItyeLB-4" value="- tenant_id : long PK&#xa;- uuid_process: char(36) PK&#xa;- identifier: char(50)&#xa;- callback: char(300)&#xa;- photo_id : long&#xa;- score_min :  byte&#xa;- score_max : byte&#xa;- type_photo: Enum&#xa;- hard_approve: bool &#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=20;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="hmAbQtuS3bcoNJItyeLB-3">
+          <mxGeometry y="30" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hmAbQtuS3bcoNJItyeLB-13" value="user_facial_response" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="T9Nn7Okn6skYNSkeCLy9-1">
+          <mxGeometry x="490" y="530" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hmAbQtuS3bcoNJItyeLB-14" value="- tenant_id : long PK&#xa;- uuid_process: char(36) PK&#xa;- score :  byte&#xa;- type_photo: Enum&#xa;- hard_approve: bool " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=20;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="hmAbQtuS3bcoNJItyeLB-13">
+          <mxGeometry y="30" width="260" height="240" as="geometry" />
         </mxCell>
         <mxCell id="hmAbQtuS3bcoNJItyeLB-11" value="credential" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="T9Nn7Okn6skYNSkeCLy9-1">
-          <mxGeometry x="760" y="220" width="200" height="270" as="geometry" />
+          <mxGeometry x="770" y="220" width="200" height="270" as="geometry" />
         </mxCell>
         <mxCell id="hmAbQtuS3bcoNJItyeLB-12" value="- tenant_id : long PK&#xa;- {{API_CAPA}}" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=20;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="hmAbQtuS3bcoNJItyeLB-11">
           <mxGeometry y="30" width="200" height="240" as="geometry" />
