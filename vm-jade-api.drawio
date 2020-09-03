@@ -1,6 +1,6 @@
-<mxfile modified="2020-09-03T21:02:07.223Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="4ecpPIkMsKJjx6X0-rMH" version="13.6.5" type="github" pages="4">
+<mxfile modified="2020-09-03T21:03:23.534Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="y2mMQKLG8oCoB0YCCnge" version="13.6.5" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
-    <mxGraphModel dx="1186" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MGfQ_S6StoyqCkcG_YU1" name="Simple Query Interaction">
-    <mxGraphModel dx="988" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
       <root>
         <mxCell id="5uC7GMBCHUU2KOciokQW-0" />
         <mxCell id="5uC7GMBCHUU2KOciokQW-1" parent="5uC7GMBCHUU2KOciokQW-0" />
@@ -198,9 +198,6 @@
         </mxCell>
         <mxCell id="ccUjn54pVpTTam-t7Y5S-1" value="Visual Mix - vm-jade-api" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
           <mxGeometry x="4" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ccUjn54pVpTTam-t7Y5S-2" value="Visual Mix - Security API - Simple Interaction" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
-          <mxGeometry x="4" y="50" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ccUjn54pVpTTam-t7Y5S-3" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="ccUjn54pVpTTam-t7Y5S-0" vertex="1">
           <mxGeometry y="75" width="1060" height="10" as="geometry" />
@@ -550,11 +547,14 @@
         <mxCell id="C_gTXAS31QzOM1O6qctz-64" value="&lt;br&gt;Read internal EAN&lt;br&gt;position, x to y" style="shape=manualInput;whiteSpace=wrap;html=1;dashed=0;size=15;fontSize=11;align=center;" vertex="1" parent="5uC7GMBCHUU2KOciokQW-1">
           <mxGeometry x="497" y="1239.5" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="4GSK8A5uX7xxegCDRj_F-0" value="Simple Visual Mix Jade Architecture" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="5uC7GMBCHUU2KOciokQW-1">
+          <mxGeometry x="12" y="115.5" width="270" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Simple Commit Interaction" id="DF2k5BVZZJ7Fm-ianyhk">
-    <mxGraphModel dx="1694" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
       <root>
         <mxCell id="A6Q7QGBYelO12TpGn7Jf-0" />
         <mxCell id="A6Q7QGBYelO12TpGn7Jf-1" parent="A6Q7QGBYelO12TpGn7Jf-0" />
@@ -563,9 +563,6 @@
         </mxCell>
         <mxCell id="A6Q7QGBYelO12TpGn7Jf-3" value="Visual Mix - vm-jade-api" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" vertex="1" parent="A6Q7QGBYelO12TpGn7Jf-2">
           <mxGeometry x="4" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="A6Q7QGBYelO12TpGn7Jf-4" value="Visual Mix - Security API - Simple Interaction" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="A6Q7QGBYelO12TpGn7Jf-2">
-          <mxGeometry x="4" y="50" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6Q7QGBYelO12TpGn7Jf-5" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="A6Q7QGBYelO12TpGn7Jf-2">
           <mxGeometry y="75" width="1060" height="10" as="geometry" />
@@ -770,19 +767,22 @@
         <mxCell id="A6Q7QGBYelO12TpGn7Jf-82" value="Entity Product&lt;br&gt;with new&lt;br&gt;&amp;nbsp;attribute&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fontSize=11;align=center;" vertex="1" parent="A6Q7QGBYelO12TpGn7Jf-66">
           <mxGeometry x="492" y="171.75" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="x1kP2G2OCzOiXEjzhqxT-0" value="Simple Visual Mix Jade Architecture" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="A6Q7QGBYelO12TpGn7Jf-1">
+          <mxGeometry x="12" y="115.5" width="270" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="04d3i-9KU2tXRQpcHc8r" name="Data Communication">
-    <mxGraphModel dx="946" dy="662" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="552" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-0" />
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-1" parent="Ps8T6w26ynxrEsZP9qTw-0" />
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="40" y="40" width="31.9" height="10" as="geometry" />
+          <mxGeometry x="65" y="300" width="31.9" height="10" as="geometry" />
         </mxCell>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-3" value="JadeMessage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;align=center;html=0;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="40" y="90" width="140" height="182" as="geometry" />
+          <mxGeometry x="30" y="340" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-4" value="+ id: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-3">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -803,7 +803,7 @@
           <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-10" value="VmixRespMessage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;align=center;html=0;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="210" y="90" width="140" height="182" as="geometry" />
+          <mxGeometry x="200" y="345" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-17" value="+ barcode: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-10">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -822,6 +822,15 @@
         </mxCell>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-16" value="+ quantity: double&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-10">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vjo3kaJNEst4xchoB2S7-3" value="Visual Mix Jade Architecture" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="17" y="70.5" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vjo3kaJNEst4xchoB2S7-5" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="13" y="145.5" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a-pRfIUOM88Ss_KxHDqI-0" value="Simple Visual Mix Jade Architecture" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="12" y="115.5" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
