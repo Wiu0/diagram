@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-03T21:55:31.109Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="0s_KG6D_EqQ3ZbdyLzXD" version="13.6.5" type="github" pages="4">
+<mxfile modified="2020-09-03T22:05:47.244Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="Yj4819g7fnHpbcVLQvl1" version="13.6.5" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -774,7 +774,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="04d3i-9KU2tXRQpcHc8r" name="Data Communication">
-    <mxGraphModel dx="652" dy="457" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="450" dy="315" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-0" />
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-1" parent="Ps8T6w26ynxrEsZP9qTw-0" />
@@ -839,13 +839,13 @@
           <mxGeometry x="26" y="880" width="1060" height="10" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-25" value="Example 3 - Barcode EAN128 Product(Weight without Expire date)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="27.5" y="1216" width="485" height="25" as="geometry" />
+          <mxGeometry x="31.5" y="1629" width="485" height="25" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-31" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="27" y="1065" width="1060" height="10" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-33" value="" style="line;strokeWidth=2;html=1;fontSize=14;rotation=90;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="17" y="680" width="1060" height="10" as="geometry" />
+          <mxGeometry x="-119.5" y="816.5" width="1333" height="10" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-49" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;id&quot;: &quot;1&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;command&quot;: &quot;commit&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;terminal&quot;: &quot;1&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;barcode&quot;: &quot;2000400000111&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;quantity&quot;: 11,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;checked&quot;: true&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="862" y="715" width="137.05" height="80" as="geometry" />
@@ -943,7 +943,7 @@
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-69" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="342" y="485" width="137.05" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FK0prAdGzY6Ms7PpbqKq-7" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;7891000100103&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;7891000100103&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;LEITE MOCA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 3.14,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 1&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="FK0prAdGzY6Ms7PpbqKq-69">
+        <mxCell id="FK0prAdGzY6Ms7PpbqKq-7" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;7891000100103&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;7891000100103&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;LEITE MOCA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 3.14,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 1.0&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="FK0prAdGzY6Ms7PpbqKq-69">
           <mxGeometry width="137.05" height="100" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-67" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="FK0prAdGzY6Ms7PpbqKq-69">
@@ -952,7 +952,7 @@
         <mxCell id="uBCSQrn16Jsj0f7z9moJ-0" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="342" y="710" width="137.05" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="uBCSQrn16Jsj0f7z9moJ-1" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;2776890123416&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;2776890123416&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_1&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 0.99,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 1&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-0">
+        <mxCell id="uBCSQrn16Jsj0f7z9moJ-1" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;2776890123416&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;2776890123416&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_1&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 0.99,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 1.0&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-0">
           <mxGeometry width="137.05" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uBCSQrn16Jsj0f7z9moJ-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-0">
@@ -964,14 +964,14 @@
         <mxCell id="uBCSQrn16Jsj0f7z9moJ-4" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="340" y="905" width="137.05" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="uBCSQrn16Jsj0f7z9moJ-5" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 6,60,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 3.0&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-4">
+        <mxCell id="uBCSQrn16Jsj0f7z9moJ-5" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 6,60, &lt;b&gt;*Unit Price 2.2*&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 3.0&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-4">
           <mxGeometry width="137.05" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uBCSQrn16Jsj0f7z9moJ-6" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-4">
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-0" value="Example 4 - Barcode EAN128 Product(Weight with Expire date)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="40" y="1325" width="465" height="25" as="geometry" />
+          <mxGeometry x="55" y="1670" width="465" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-1" value="Example 4 - Barcode EAN 13 Product - Qty - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="27.5" y="1040" width="505" height="25" as="geometry" />
@@ -982,11 +982,47 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-3" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="340" y="1095" width="137.05" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-4" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 0.19,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 0.0066&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-3">
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-4" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 0.19, &lt;b&gt;*Unit Price 2.2*&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 0.0066&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-3">
           <mxGeometry width="137.05" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-5" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-3">
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-6" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="27.5" y="1240" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-7" value="Example 5 - Barcode EAN 13 Product - Price - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="28" y="1215" width="525" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-8" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600005008&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="32.5" y="1270" width="137.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-9" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="340.5" y="1270" width="137.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-10" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 5.0, &lt;b&gt;*Unit Price 2.5*&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 2.0&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-9">
+          <mxGeometry width="137.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-11" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-9">
+          <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-12" value="Example 5 - Barcode EAN 13 Product - Price - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="32" y="1395" width="520" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-13" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600005008&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="36.5" y="1450" width="137.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-14" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="344.5" y="1450" width="137.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-15" value="&lt;div&gt;Vmix Response Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;barcode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemCode&quot;: &quot;3136&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemName&quot;: &quot;PROD_2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;flag&quot;: 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;itemPrice&quot;: 5.0, &lt;b&gt;*Unit Price 2.5*&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;quantity&quot;: 2.0&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-14">
+          <mxGeometry width="137.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-16" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-14">
+          <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-17" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="28" y="1380" width="1060" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
