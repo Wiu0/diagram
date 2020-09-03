@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-03T14:14:53.163Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="QH78CwfAamNZxNM_qunh" version="13.6.5" type="github" pages="3">
+<mxfile modified="2020-09-03T14:15:29.742Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="IGIg13ueADSbZoN2EzHZ" version="13.6.5" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -458,7 +458,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Simple Interaction" id="DF2k5BVZZJ7Fm-ianyhk">
+  <diagram name="Simple Commit Interaction" id="DF2k5BVZZJ7Fm-ianyhk">
     <mxGraphModel dx="2037" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
       <root>
         <mxCell id="A6Q7QGBYelO12TpGn7Jf-0" />
