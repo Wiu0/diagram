@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-03T17:46:56.335Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="L9u8Le0gMEbLmqAcm7Eq" version="13.6.5" type="github" pages="3">
+<mxfile modified="2020-09-03T17:52:58.063Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="N34iglWrKdhYJ_SkbVUR" version="13.6.5" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MGfQ_S6StoyqCkcG_YU1" name="Simple Query Interaction">
-    <mxGraphModel dx="1694" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="413" math="0" shadow="0">
       <root>
         <mxCell id="5uC7GMBCHUU2KOciokQW-0" />
         <mxCell id="5uC7GMBCHUU2KOciokQW-1" parent="5uC7GMBCHUU2KOciokQW-0" />
@@ -282,7 +282,7 @@
         <mxCell id="C_gTXAS31QzOM1O6qctz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="7Nfif4b1ss9Nq2-eNS39-148" source="7Nfif4b1ss9Nq2-eNS39-157" target="7Nfif4b1ss9Nq2-eNS39-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Nfif4b1ss9Nq2-eNS39-157" value=" EAN &#xa;length is &#xa;equals 22&#xa;" style="shape=rhombus;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=11;horizontal=1;verticalAlign=middle;spacing=0;align=center;" vertex="1" parent="7Nfif4b1ss9Nq2-eNS39-148">
+        <mxCell id="7Nfif4b1ss9Nq2-eNS39-157" value=" EAN &#xa;length is &#xa;equals m&#xa;" style="shape=rhombus;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=11;horizontal=1;verticalAlign=middle;spacing=0;align=center;" vertex="1" parent="7Nfif4b1ss9Nq2-eNS39-148">
           <mxGeometry x="637" y="262.75" width="90" height="75" as="geometry" />
         </mxCell>
         <mxCell id="7Nfif4b1ss9Nq2-eNS39-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="7Nfif4b1ss9Nq2-eNS39-148" source="7Nfif4b1ss9Nq2-eNS39-159" target="7Nfif4b1ss9Nq2-eNS39-162">
