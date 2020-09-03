@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-03T22:06:08.412Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="uZ-KENEr12BE3djwuJIJ" version="13.6.5" type="github" pages="4">
+<mxfile modified="2020-09-03T22:08:23.698Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="8aeB5qK2SvXk15kLPcQ0" version="13.6.5" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -774,7 +774,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="04d3i-9KU2tXRQpcHc8r" name="Data Communication">
-    <mxGraphModel dx="788" dy="552" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="779" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-0" />
         <mxCell id="Ps8T6w26ynxrEsZP9qTw-1" parent="Ps8T6w26ynxrEsZP9qTw-0" />
@@ -1022,7 +1022,25 @@
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-17" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="28" y="1380" width="1060" height="10" as="geometry" />
+          <mxGeometry x="32.5" y="1420" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-18" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="32.5" y="1385" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-19" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="28" y="1205" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-20" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="28" y="1030" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-21" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="25" y="840" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-22" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="19" y="640" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-23" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="19" y="403.5" width="1060" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
