@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-03T22:12:16.393Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="HOY1iidE69WdBsXH40cT" version="13.6.5" type="github" pages="4">
+<mxfile modified="2020-09-03T22:15:07.927Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="mjxT3WPGD7AT2Bl0h7N-" version="13.6.5" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -820,8 +820,8 @@
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-3" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="18" y="445" width="1060" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FK0prAdGzY6Ms7PpbqKq-4" value="Example 1 - Barcode EAN13 Product" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="17" y="420" width="275" height="25" as="geometry" />
+        <mxCell id="FK0prAdGzY6Ms7PpbqKq-4" value="Example 1 - Barcode EAN13" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="17" y="420" width="220" height="25" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-16" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2776890123416&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="25" y="710" width="137.05" height="100" as="geometry" />
@@ -829,8 +829,8 @@
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-20" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="19" y="680" width="1060" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FK0prAdGzY6Ms7PpbqKq-21" value="Example 2 - Barcode EAN13 Product(Not Conformity)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="18" y="655" width="395" height="25" as="geometry" />
+        <mxCell id="FK0prAdGzY6Ms7PpbqKq-21" value="Example 2 - Barcode EAN13(Not Conformity)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="18" y="655" width="335" height="25" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-23" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600000038&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="32" y="905" width="137.05" height="100" as="geometry" />
@@ -845,7 +845,7 @@
           <mxGeometry x="27" y="1065" width="1060" height="10" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-33" value="" style="line;strokeWidth=2;html=1;fontSize=14;rotation=90;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="-317.75" y="1014.75" width="1729.5" height="10" as="geometry" />
+          <mxGeometry x="-569.38" y="1266.38" width="2232.75" height="10" as="geometry" />
         </mxCell>
         <mxCell id="FK0prAdGzY6Ms7PpbqKq-49" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;id&quot;: &quot;1&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;command&quot;: &quot;commit&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;terminal&quot;: &quot;1&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;barcode&quot;: &quot;2000400000111&quot;,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;quantity&quot;: 11,&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt; &lt;/span&gt;&quot;checked&quot;: true&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="862" y="715" width="137.05" height="80" as="geometry" />
@@ -958,8 +958,8 @@
         <mxCell id="uBCSQrn16Jsj0f7z9moJ-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="uBCSQrn16Jsj0f7z9moJ-0">
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="uBCSQrn16Jsj0f7z9moJ-3" value="Example 3 - Barcode EAN13 Product - Qty - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="26" y="850" width="510" height="25" as="geometry" />
+        <mxCell id="uBCSQrn16Jsj0f7z9moJ-3" value="Example 3 - Barcode EAN13 - Qty - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="26" y="850" width="450" height="25" as="geometry" />
         </mxCell>
         <mxCell id="uBCSQrn16Jsj0f7z9moJ-4" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="340" y="905" width="137.05" height="100" as="geometry" />
@@ -973,8 +973,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-0" value="Example 4 - Barcode EAN128 Product(Weight with Expire date)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="44" y="2390" width="465" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-1" value="Example 4 - Barcode EAN13 Product - Qty - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="27.5" y="1040" width="500" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-1" value="Example 4 - Barcode EAN13 - Qty - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="27.5" y="1040" width="445" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-2" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600000038&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="32" y="1095" width="137.05" height="100" as="geometry" />
@@ -991,8 +991,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-6" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="27.5" y="1240" width="1060" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-7" value="Example 5 - Barcode EAN13 Product - Price - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="28" y="1215" width="520" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-7" value="Example 5 - Barcode EAN13 - Price - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="28" y="1215" width="460" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-8" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600005008&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="32.5" y="1270" width="137.05" height="100" as="geometry" />
@@ -1006,8 +1006,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-11" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-9">
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-12" value="Example 6 - Barcode EAN13 Product - Price - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="32" y="1395" width="515" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-12" value="Example 6 - Barcode EAN13 - Price - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="32" y="1395" width="455" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-13" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600005008&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="36.5" y="1450" width="137.05" height="100" as="geometry" />
@@ -1051,8 +1051,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-54" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="38.5" y="1795" width="1060" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-55" value="Example 7 - Barcode EAN128 Product - Qty - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="37.5" y="1580" width="515" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-55" value="Example 7 - Barcode EAN128 - Qty - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="37.5" y="1580" width="460" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-56" value="" style="group" vertex="1" connectable="0" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="351.5" y="1635" width="137.05" height="100" as="geometry" />
@@ -1063,8 +1063,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-58" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-56">
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-59" value="Example 4 - Barcode EAN 13 Product - Qty - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="39" y="1770" width="505" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-59" value="Example 4 - Barcode EAN128 - Qty - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="39" y="1770" width="450" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-60" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600000038&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="43.5" y="1825" width="137.05" height="100" as="geometry" />
@@ -1081,8 +1081,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-64" value="" style="line;strokeWidth=2;html=1;fontSize=14;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="39" y="1970" width="1060" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-65" value="Example 5 - Barcode EAN 13 Product - Price - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="39.5" y="1945" width="525" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-65" value="Example 5 - Barcode EA128 - Price - Obligatory measure false" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="39.5" y="1945" width="460" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-66" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600005008&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="44" y="2000" width="137.05" height="100" as="geometry" />
@@ -1096,8 +1096,8 @@
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-69" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=11;" vertex="1" parent="pKHUcrHNFBbWnfL-h2MC-67">
           <mxGeometry x="106" y="3" width="15.95" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="pKHUcrHNFBbWnfL-h2MC-70" value="Example 6 - Barcode EAN 13 Product - Price - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
-          <mxGeometry x="43.5" y="2125" width="520" height="25" as="geometry" />
+        <mxCell id="pKHUcrHNFBbWnfL-h2MC-70" value="Example 6 - Barcode EAN128 - Price - Obligatory measure true" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+          <mxGeometry x="43.5" y="2125" width="465" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pKHUcrHNFBbWnfL-h2MC-71" value="&lt;div&gt;Jade Middleware Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;command&quot;: &quot;query&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;barcode&quot;: &quot;2313600005008&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=8;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="48" y="2180" width="137.05" height="100" as="geometry" />
