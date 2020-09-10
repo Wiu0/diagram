@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-10T21:53:55.665Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="JO5esJkIxR-Wfxp5H20K" version="13.6.9" type="github">
+<mxfile modified="2020-09-10T21:55:32.276Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="NIpsHdyegE8-uSVfzM0G" version="13.6.9" type="github">
   <diagram id="04d3i-9KU2tXRQpcHc8r" name="Data Communication">
     <mxGraphModel dx="1113" dy="779" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
             <mxPoint x="400" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yh48nbd1rQ2h-CsPQvWh-16" value="SegmentationOperation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
+        <mxCell id="yh48nbd1rQ2h-CsPQvWh-16" value="SegmentationOperator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Ps8T6w26ynxrEsZP9qTw-1">
           <mxGeometry x="285" y="235" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="yh48nbd1rQ2h-CsPQvWh-18" value="- operators: Operator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yh48nbd1rQ2h-CsPQvWh-16">
