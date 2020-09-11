@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-11T13:11:54.078Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="nqC6yHICpS4sKvGlboVr" version="13.6.9" type="github" pages="2">
+<mxfile modified="2020-09-11T13:12:14.432Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="7KSrOudGLwa7FeliJ_5V" version="13.6.9" type="github" pages="2">
   <diagram id="04d3i-9KU2tXRQpcHc8r" name="Data Communication">
     <mxGraphModel dx="1395" dy="779" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -180,10 +180,10 @@
         <mxCell id="Q5GMCZvJXes7DOdOf-tg-43" value="- status: StatusScreen" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q5GMCZvJXes7DOdOf-tg-13">
           <mxGeometry y="104" width="232" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Q5GMCZvJXes7DOdOf-tg-52" value="- segmentations: CustomerSegmentaion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q5GMCZvJXes7DOdOf-tg-13">
+        <mxCell id="Q5GMCZvJXes7DOdOf-tg-52" value="- segmentationsC: CustomerSegmentaion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q5GMCZvJXes7DOdOf-tg-13">
           <mxGeometry y="130" width="232" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mRL9bIuX5t04bbBZDSIe-17" value="- segmentations: StoreSegmentaion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q5GMCZvJXes7DOdOf-tg-13">
+        <mxCell id="mRL9bIuX5t04bbBZDSIe-17" value="- segmentationsS: StoreSegmentaion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q5GMCZvJXes7DOdOf-tg-13">
           <mxGeometry y="156" width="232" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q5GMCZvJXes7DOdOf-tg-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Q5GMCZvJXes7DOdOf-tg-13">
@@ -273,7 +273,7 @@
         <mxCell id="mRL9bIuX5t04bbBZDSIe-1" value="0...*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="mRL9bIuX5t04bbBZDSIe-0">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mRL9bIuX5t04bbBZDSIe-13" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q5GMCZvJXes7DOdOf-tg-1" target="mRL9bIuX5t04bbBZDSIe-3">
+        <mxCell id="mRL9bIuX5t04bbBZDSIe-13" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q5GMCZvJXes7DOdOf-tg-1" source="mRL9bIuX5t04bbBZDSIe-17" target="mRL9bIuX5t04bbBZDSIe-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="318" as="sourcePoint" />
             <mxPoint x="380" y="248" as="targetPoint" />
