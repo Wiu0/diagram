@@ -1,4 +1,4 @@
-<mxfile modified="2020-10-15T12:48:57.328Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="ijBLYZrHssvJxlI9zPP7" version="13.8.0" type="github" pages="4">
+<mxfile modified="2020-10-15T17:14:21.550Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="ZGqjvdgFO-_R5gPZYsAj" version="13.8.0" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Architecture">
     <mxGraphModel dx="1186" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="AG2WPp31ISUB299ihtxD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="AG2WPp31ISUB299ihtxD-2" source="AG2WPp31ISUB299ihtxD-1" target="AG2WPp31ISUB299ihtxD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AG2WPp31ISUB299ihtxD-1" value="HC" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678089-component-128.png" parent="AG2WPp31ISUB299ihtxD-2" vertex="1">
+        <mxCell id="AG2WPp31ISUB299ihtxD-1" value="MC" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678089-component-128.png" parent="AG2WPp31ISUB299ihtxD-2" vertex="1">
           <mxGeometry x="18" y="209.5" width="38" height="38" as="geometry" />
         </mxCell>
         <mxCell id="AG2WPp31ISUB299ihtxD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="AG2WPp31ISUB299ihtxD-2" source="AG2WPp31ISUB299ihtxD-5" target="AG2WPp31ISUB299ihtxD-1" edge="1">
@@ -115,6 +115,81 @@
         </mxCell>
         <mxCell id="AG2WPp31ISUB299ihtxD-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.013;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AG2WPp31ISUB299ihtxD-1" target="AG2WPp31ISUB299ihtxD-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="170" width="539" height="969" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-6" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="958" y="182" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-7" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="957.5" y="233.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-8" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="957.5" y="296" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-9" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="959" y="355" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-10" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="958.5" y="411.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-11" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="959" y="462.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-12" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="958" y="513.75" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-13" value="8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="570" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-14" value="&lt;b&gt;vm-auth-api &lt;/b&gt;- &amp;nbsp;Visual Mix API. It is responsible for authentication and user&#39;s management&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1009.5" y="181.5" width="449" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-15" value="&lt;b&gt;vm-presale-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for manager all purchase cycle.&amp;nbsp;&lt;br&gt;Create new cart, add products, queries about carts, etc." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1009.5" y="234" width="450" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-16" value="&lt;b&gt;vm-product-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for searching product data Elasticsearch&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1009.5" y="294.5" width="450" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-17" value="&lt;span&gt;&lt;b&gt;vm-logistics-api&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible the stores&amp;nbsp;and delivery&amp;nbsp;information&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="350.5" width="450" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-18" value="&lt;b&gt;vm-location-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for search address by our own database, ViaCEP API and Geocoding(Google) API." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010.5" y="411.5" width="449" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-19" value="&lt;b&gt;vm-configeasy-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;Visual Mix API. It is responsible for all setups to easy app works perfectly. Theme color, images, sections, etc" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1009.5" y="464" width="450" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-20" value="&lt;b&gt;vm-pushnotifier-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It the bridges between client(app) and Firebase." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010.5" y="571.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-21" value="&lt;b&gt;vm-epayment-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. Gateway to external payments methods. eSiftef(Software Express), AME, etc.&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="511.5" width="450" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-22" value="9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="958.5" y="620" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-23" value="&lt;b&gt;vm-stock-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It the bridges between client(app) and an external stock from ERP." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="621.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-24" value="10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="958.5" y="670" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-25" value="&lt;b&gt;vm-chat-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It&#39;s responsible for chat between customer and retail company" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="671.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-26" value="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="720" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-27" value="&lt;b&gt;vm-notifier-api&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It&#39;s responsible for send all e-mail messages" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010.5" y="721.5" width="449" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-28" value="12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="770" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xKFbph29cd6-ZdHVKOAd-29" value="&lt;b&gt;vm-messenger-ws&amp;nbsp;&lt;/b&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;Visual Mix API. It&#39;s responsible for all websockets requests" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010.5" y="771.5" width="449" height="38.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
